@@ -1,0 +1,229 @@
+*{margin: 0;
+padding: 0;}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+body{
+    background-image: url(img/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-color: #040527d7;
+    font-family: "Oswald",sans-serif;
+}
+.container{
+    width: 100%;
+    height: 1000px;
+
+
+}
+.sidebar{
+    width: 25%;
+    float: left;
+    height: 1000px;
+    background-color:rgba(11, 11, 13, 0.605);
+}
+.content{
+    width: 75%;
+    float: left;
+    color: white;
+   
+}
+.btn{
+   background-color: rgba(255, 255, 255, 0);
+     width: 252px;
+    height: 63px;
+    top: 635px;
+    left: 594px;
+    border-radius: 17px 17px 17px 17px;
+   border: 2px solid white;
+    color: white;
+    margin-left: 40px;
+}
+.logo{
+   text-align:center;
+   margin-top: 50px;
+}
+.container-img{
+display: flex;
+   margin-top: 80px;
+   margin-left: 50px;   
+}
+.img_v_1{
+margin-right: 20px;
+position: relative;
+left: 25px;
+}
+.img_v_2{
+  margin-left: 20px;  
+}
+.img_v_3{
+   margin-left: 20px; 
+}
+.img_v_4{
+    margin-left: 20px;
+}
+.img{
+    float: left;
+}
+.logo-color{
+    color: rgba(162, 118, 255, 1);
+    ;
+}
+.menu{
+    margin: 50px 0px 50px 30px;
+    color: white;
+}
+.sidebar_menu{
+    list-style-type: none;
+}
+.item_menu{
+ padding-bottom: 30px;
+ text-align: center;
+}
+.item_menu:hover{
+    color: rgba(162, 118, 255, 1);
+}
+
+.item_menu:hover::before{
+   content: url(img/Marker.png );
+   position: absolute;
+   left: 0;
+   width: 5px;
+   height: 25px;
+   align-items: center;
+}
+.siderbar_footer{
+text-align: center;
+position: relative;
+top: 300px;
+left: 20px;
+color: white;
+font-size: 17px;
+font-weight: 400;
+line-height: 50.19px;
+}
+
+.footer-col{
+ content: url(img/©2020\ ACME\ LLC..png);
+margin-left: 120px;
+margin-top: 80px;
+}
+.a_class{
+padding-top: 80px;
+margin-left: 85px;
+  }
+h2{
+    color: white;
+    margin-top: 50px;
+  position: relative;
+  left: 50px;  
+  margin-bottom: 60px; 
+}
+.col{
+    color: white;
+    position: relative;
+    left: 45px;  
+    text-align: left; 
+   padding: auto;
+}
+h1{
+    font-size: 50px;
+   position: relative;
+   left: 60px;
+}
+.logo-color{
+    font-size: 100px;
+    
+}.text1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: left; 
+    margin-left: 51px;
+}
+.container-text{
+    display: flexbox;
+    width: 1000px;
+    height: 1000px;
+    border: 2pt solid white;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 41px;
+    margin-top: 50px;
+    font-family: "Oswald",sans-serif;
+    display: flex;
+    position: relative;
+    left: 45px;
+   box-sizing: border-box;
+}
+.block{
+    height: 700px;
+   text-align: center;
+   float: left;
+   margin-left: 15px;   
+}
+.block2{
+    height: 300px;
+    text-align:center;
+    margin-bottom: 90px;
+    position: relative;
+   left: 185px;
+   margin-top: 100px;
+ }
+ .bl1{
+    font-family: "Oswald",sans-serif;
+font-size: 36px;
+font-weight: 900;
+line-height: 42.79px;
+text-align: left;
+margin-top: 50px;
+    
+ }
+ .tex2{
+font-family:"Oswald",sans-serif;
+font-size: 19px;
+font-weight: 600;
+line-height: 25px;
+text-align: left;
+margin-top: 15px;
+
+ }.tex3{
+    font-family: "Oswald",sans-serif;
+font-size: 20px;
+font-weight: 500;
+line-height: 25.14px;
+text-align: left;
+margin-top: 20px;
+margin-bottom: 35px;
+ }
+h3{
+    font-family: "Oswald",sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 25.74px;
+    text-align: left;    
+}
+.social link{
+    color: rgba(162, 118, 255, 1);
+    background-color: rgba(162, 118, 255, 1);
+
+}
+.cont-link{
+    background-color:rgba(162, 118, 255, 1) ;
+    width: 132px;
+    height: 53px;
+    gap: 0px;
+    border-radius: 0px 0px 10px 10px;
+    opacity: 0px;
+   float: right;
+   text-align: center;
+ margin-right: 50px;
+
+}
+.block3{
+    margin-top: 750px;
+  text-align: center;
+position: relative;
+left: -120px;
+  }
+  
